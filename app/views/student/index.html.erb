@@ -4,7 +4,7 @@
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">Registration form</span>
-              <%= form_tag({controller:"student",action:"show"},method:"get") do %>         
+              <%= form_tag new_student_path, method:"get" do %>         
               <%= label_tag :firstname %>
               <%= text_field_tag :firstname %>
 
